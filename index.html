@@ -1,0 +1,426 @@
+<!doctype html>
+<html class="no-js" lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>Flisol_Web</title>
+		<link rel="apple-touch-icon" href="apple-touch-icon.png">
+		<!-- Place favicon.ico in the root directory -->
+		<!-- <link rel="stylesheet" href="styles/main.css"> -->
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+		<link rel="stylesheet" href="bootstrap-table/css/bootstrap-table.css">
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+	<script src="scripts/vendor/modernizr.js"></script>
+	
+	<!-- PREPARANDO CONTENEDOR DE PATOCINANTES-->
+
+	<style>
+		.flex-content{
+		  display:flex;
+		     -moz-display:flex;
+		     -webkit-display:flex;
+		  flex-direction: row;
+		  flex-wrap: wrap;
+		  align-items: center;
+		  justify-content: center;  
+		}
+		.flex-content img{
+			width: auto;
+			height: 100px;
+		} 
+	</style>
+
+
+	</head>
+<body>
+<!--[if lt IE 10]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+	<div id="main" class="container">
+		<div class="row">
+			<article class="col-xs-12">
+				<div class="header">
+				<h2 id="mensaje">El evento de difusión de <big><b>Software Libre</b></big> más <big><b>grande</b></big> en Latinoamérica llega nuevamente a Cumaná !</h2>
+
+
+				<!-- NAV TIPO FIXED -->
+
+					<nav id="navbar-main" class="navbar navbar-inverse">
+						<div class="container">
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+									<span class="sr-only"></span>
+									<span class="icon-bar"></span>
+								</button>
+								<a class="navbar-brand" href="#">FLISoL Cumaná 2016</a>
+							</div>
+
+							<!-- NAV TRABAJAR CON ANCLAS -->
+							<!--http://plugins.compzets.com/animatescroll/ -->
+
+							<div id="navbar" class="collapse navbar-collapse">
+								<ul id="anclas" class="nav navbar-nav">
+									<li id="inicio"><a href="#main">Inicio</a></li>
+									<li id="flisol"><a href="#info">Festinstall</a></li>
+									<li id="flisol"><a href="#cronograma">Cronograma</a></li>
+									<li id="contacto">
+										<a href="#contact" data-toggle="modal" data-target="#modalContacto">Contacto</a>
+									</li>
+									<li><a href="https://www.facebook.com/Flisol-Cuman%C3%A1-1624701527852795" target="_blank"><i class="fa fa-facebook-official fa-1x"></i> Facebook</a></li>
+									<li><a href="https://twitter.com/FLISOLCumana" target="_blank"><i class="fa fa-twitter-square fa-1x"></i> Twitter</a></li>
+									<li><a href="https://www.instagram.com/flisolcumana/" target="_blank"><i class="fa fa-instagram fa-1x"></i> Instagram</a></li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+
+					<!-- BANNER flISOL -->                  
+					<div class="componente thumbnail" id="info">
+						<img src="images/flisol/banner_flisol2016.png" alt="flisol_1" class="img-responsive">
+					</div>
+					<!--Juntotron con castillo de fondo y boton de
+						registro -->
+					<div id="jumbo" class="jumbotron">
+						<h1>Flisol 2016</h1>
+						<p class="lead">Edición Cumaná Venezuela</p>
+						<p><a id="formulario" class="btn btn-lg btn-success" href="#"  data-toggle="modal" data-target="#modalRegistro">registro de asistencia</a></p>
+
+						 <div class="countdown">
+							<!-- <p>Solo faltan!</p> -->
+							<h1><span id="clock"></span></h1>
+						</div>
+					</div>               	   
+				</div>                  
+			</article>
+		</div>
+	</div>
+	<br>
+	<!--INFORMACION FLISOL -->
+	<div id="cronograma" class="container">
+		<section class="row">
+			<article class="col-xs-12 col-sm-12">
+				<h3>Cronograma</h3>
+				<h4 class="text-center">
+					Viernes 22 - UPTOS-CR
+				</h4>
+				<div class="thumbnail componente">
+					<table class="table table-hover" id="tablaPonencias" data-toggle="table" data-url="viernes.json">
+						<thead>
+							<tr>
+								<th class="text-center col-xs-1" data-field="hora">Horario</th>
+								<th class="text-center" data-field="ponente">Ponente</th>
+								<th class="text-center" data-field="organizacion">Organización/Grupo</th>
+								<th class="text-center" data-field="ponencia">Ponencia</th>
+								<th class="text-center" data-field="sala">Sala</th>
+							</tr>
+						</thead>
+					</table>
+				</div>
+
+				<h4 class="text-center">
+					Sábado 23 - Fundacite Sucre
+				</h4>
+				<div class="thumbnail componente">
+					<table class="table table-hover" id="tablaTalleres" data-toggle="table" data-url="sabado.json">
+						<thead>
+							<tr>
+								<th class="text-center col-xs-1" data-field="hora">Horario</th>
+								<th class="text-center" data-field="ponente">Ponente</th>
+								<th class="text-center" data-field="organizacion">Organización/Grupo</th>
+								<th class="text-center" data-field="taller">Taller</th>
+								<th class="text-center" data-field="sala">Sala</th>
+							</tr>
+						</thead>
+					</table>
+				</div>
+			</article>
+		</section>
+	</div>
+
+
+	<div class="container">
+		<h1>Patrocinantes</h1>
+		<div class="row">
+			<div class="col-xs-12 componente flex-content thumbnail">
+				
+				<img src="images/Patrocinantes/uptos.png" alt="uptos" class="img-responsive" data-toggle="tooltip" data-placement="top" title="UPTOS-CR">
+				<img src="images/Patrocinantes/fundacite.png" alt="fundacite sucre" class="img-responsive" data-toggle="tooltip" data-placement="top" title="Fundacite Sucre">
+				<img src="images/Patrocinantes/LOGO_GOBERNACION_150.png" alt="Gobernación del Estado Sucre" class="img-responsive" data-toggle="tooltip" data-placement="top" title="Gobernación del Estado Sucre">
+				<img src="images/Patrocinantes/hidrocaribe150.png" alt="Hidrocaribe" class="img-responsive" data-toggle="tooltip" data-placement="top" title="Hidrocaribe">
+				<img src="images/Patrocinantes/INN.png" alt="Instituto Nacional de Nutrición" class="img-responsive" data-toggle="tooltip" data-placement="top" title="Instituto Nacional de Nutrición">	
+			
+				
+				
+				<!-- <a href="http://www.radio2000.com.ve/" target="_blank"><img src="images/Patrocinantes/logo-radio-2000.png" alt="Radio 2000" class="img-responsive" data-toggle="tooltip" data-placement="top" title="Radio 2000" ></a> -->
+			</div>
+			<div class="col-xs-12 componente flex-content thumbnail">
+				<img src="images/Patrocinantes/89-3.png" alt="89.3 FM" class="img-responsive" data-toggle="tooltip" data-placement="top" title="89.3 FM">
+				<img src="images/Patrocinantes/logo_bigparty01.png" alt="88.9 FM" class="img-responsive" data-toggle="tooltip" data-placement="top" title="88.9 FM bigparty Cumaná">
+				<img src="images/Patrocinantes/logo-radio-2000.png" alt="Radio 2000" class="img-responsive" data-toggle="tooltip" data-placement="top" title="Radio 2000" >
+				<img src="images/Patrocinantes/cayaurima_fm.png" alt="Cayaurima FM 96.5" class="img-responsive" data-toggle="tooltip" data-placement="top" title="Cayaurima FM 96.5" >				
+				
+					<!--<img src="images/Patrocinantes/telesol150.png" alt="Telesol" class="img-responsive" data-toggle="tooltip" data-placement="top" title="Telesol" > -->
+				<!-- <img src="images/Patrocinantes/NVH-150.png" alt="NVH Noticias" class="img-responsive" data-toggle="tooltip" data-placement="top" title="NVH Noticias" > -->	
+				
+				<!-- <a href="http://www.radio2000.com.ve/" target="_blank"><img src="images/Patrocinantes/logo-radio-2000.png" alt="Radio 2000" class="img-responsive" data-toggle="tooltip" data-placement="top" title="Radio 2000" ></a> -->
+			</div>
+			
+	<!-- 		<div class="col-xs-12 componente flex-content thumbnail">
+				<div class="col-xs-1">
+					<img src="images/Patrocinantes/89-3.png" alt="89.3 fm" class="img-responsive" data-toggle="tooltip" data-placement="top" title="89.3 FM">
+				</div>
+				<div class="col-xs-1">
+					<img src="images/Patrocinantes/uptos.png" alt="uptos" class="img-responsive" data-toggle="tooltip" data-placement="top" title="UPTOS-CR">
+				</div>
+				<div class="col-xs-1">
+					<img src="images/Patrocinantes/fundacite.png" alt="fundacite sucre" class="img-responsive" data-toggle="tooltip" data-placement="top" title="Fundacite Sucre">
+				</div>
+			</div> -->
+		</div>
+
+		<section class="row">
+			<div class="col-xs-12">
+				<div class="footer">
+					<div id="up_site" onclick="$('#main').animatescroll({scrollSpeed:2000,easing:'easeOutBounce'});">
+					<span class="glyphicon glyphicon-chevron-up"></span>
+					</div>
+					<p class="text-center">FLISol Cumaná 2016</p>
+				</div>
+			</div>
+		</section>		
+	</div>
+
+	<div class="modal fade" id="modalPonencias" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel"><i class="glyphicon glyphicon-time"></i> <i class="hora"></i></h4>
+				</div>
+				<div class="modal-body">
+					<div class="section">
+						<section>
+							<div class="row">
+								<div class="col-sm-5">
+									<h5><i class="glyphicon glyphicon-user"></i> Ponente: <i class="ponente"></i></h5>
+								</div>
+								<div class="col-sm-7">
+									<h5><i class="glyphicon glyphicon-blackboard"></i> Ponencia: <i class="ponencia"></i></h5>
+								</div>
+								<div class="col-sm-7">
+									<h5><i class="glyphicon glyphicon-briefcase"></i> Organización/Grupo: <i class="organizacion"></i></h5>
+								</div>
+							</div>
+						</section>
+						<section>
+							<h5><i class="glyphicon glyphicon-align-justify"></i> Descripción</h5>
+							<p class="descripcion well"></p>
+						</section>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="modalTalleres" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel"><i class="glyphicon glyphicon-time"></i> <i class="horat"></i></h4>
+				</div>
+				<div class="modal-body">
+					<div class="section">
+						<section>
+							<div class="row">
+								<div class="col-sm-5">
+									<h5><i class="glyphicon glyphicon-user"></i> Ponente: <i class="ponentet"></i></h5>
+								</div>
+								<div class="col-sm-7">
+									<h5><i class="glyphicon glyphicon-blackboard"></i> Ponencia: <i class="taller"></i></h5>
+								</div>
+								<div class="col-sm-7">
+									<h5><i class="glyphicon glyphicon-briefcase"></i> Organización/Grupo: <i class="organizaciont"></i></h5>
+								</div>
+							</div>
+						</section>
+						<section>
+							<h5><i class="glyphicon glyphicon-align-justify"></i> Descripción</h5>
+							<p class="descripciont well"></p>
+						</section>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="modalContacto" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel"><i class="glyphicon glyphicon-list-alt"></i> Contacto<i class="horat"></i></h4>
+				</div>
+				<div class="modal-body">
+					<div class="section">
+						<section>
+							<h5><i class="glyphicon glyphicon-align-justify"></i> Comité Organizativo</h5>
+							<table class="table table-hover" id="tablaContactos" data-toggle="table" data-url="contactos.json">
+								<thead>
+									<tr>
+										<th class="text-center" data-field="nombre"><i class="glyphicon glyphicon-user"></i> Nombre</th>
+										<th class="text-center" data-field="entidad"><i class="glyphicon glyphicon-briefcase"></i> Entidad</th>
+										<th class="text-center" data-field="telefono"><i class="glyphicon glyphicon-earphone"></i> Teléfono</th>
+										<th class="text-center" data-field="correo"><i class="glyphicon glyphicon-envelope"></i> Correo</th>
+									</tr>
+								</thead>
+							</table>
+						</section>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="modal fade" id="modalRegistro" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel"><i class="glyphicon glyphicon-list-alt"></i> Contacto<i class="horat"></i></h4>
+				</div>
+				<div class="modal-body">
+					<iframe src="https://docs.google.com/forms/d/1sDgMK1KIN7PKkH47_9-f8sG0FuOFEEbbxHdO24ihBSM/viewform?embedded=true" width="760" height="2000" frameborder="0" marginwidth="0" marginheight="0">	Cargando...
+					</iframe>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Flisol Cumana 2016 Google Analytics -->
+
+	<script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+	function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+	e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+	e.src='https://www.google-analytics.com/analytics.js';
+	r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+	ga('create','UA-70902007-2');ga('send','pageview');
+	</script>
+
+	<script src="scripts/jquery-1.12.3.js"></script>
+	<script src="scripts/vendor.js"></script>
+	<script src="scripts/plugins.js"></script>
+	<script src="scripts/main.js"></script>
+	<script src="bootstrap-table/js/bootstrap-table.js"></script>
+	<script src="bootstrap-table/locale/bootstrap-table-es-SP.js"></script>
+	<script src="scripts/jQuery.countdown-master/dist/jquery.countdown.min.js"></script>
+	</body>
+</html>
+
+<script>
+	$(function () {
+		$('[data-toggle="tooltip"]').tooltip();
+
+		var $result = $('#eventsResult');
+
+    $('#tablaPonencias').on('click-row.bs.table', function (e, row, index) {
+    	// alert('You click like icon, row: ' + JSON.stringify(row));
+    	$text = JSON.stringify(row['hora']);
+    	$text = JSON.parse($text);
+			$('.hora').text($text);
+    	$text = JSON.stringify(row['ponente']);
+    	$text = JSON.parse($text);
+    	$('.ponente').text($text);
+    	$text = JSON.stringify(row['organizacion']);
+    	$text = JSON.parse($text);
+    	$('.organizacion').text($text);
+    	$text = JSON.stringify(row['ponencia']);
+    	$text = JSON.parse($text);
+    	$('.ponencia').text($text);
+    	$text = JSON.stringify(row['descripcion']);
+    	$text = JSON.parse($text);
+    	$('.descripcion').text($text);
+    	$('#modalPonencias').modal('show');
+    });
+    $('#tablaTalleres').on('click-row.bs.table', function (e, row, index) {
+    	// alert('You click like icon, row: ' + JSON.stringify(row));
+    	$text = JSON.stringify(row['hora']);
+    	$text = JSON.parse($text);
+			$('.horat').text($text);
+    	$text = JSON.stringify(row['ponente']);
+    	$text = JSON.parse($text);
+    	$('.ponentet').text($text);
+    	$text = JSON.stringify(row['organizacion']);
+    	$text = JSON.parse($text);
+    	$('.organizaciont').text($text);
+    	$text = JSON.stringify(row['taller']);
+    	$text = JSON.parse($text);
+    	$('.taller').text($text);
+    	$text = JSON.stringify(row['descripcion']);
+    	$text = JSON.parse($text);
+    	$('.descripciont').text($text);
+    	$('#modalTalleres').modal('show');
+    });
+
+    $('a[href^="#"]').on('click',function (e) {
+			e.preventDefault();
+
+			var target = this.hash;
+			var $target = $(target);
+
+			$('html, body').stop().animate({
+				'scrollTop': $target.offset().top
+			}, 900, 'swing', function () {
+				window.location.hash = target;
+			});
+		});
+		$('html, body').stop().animate({
+			'scrollTop': $target.offset().top
+		}, 900, 'swing');
+	});
+
+
+	 // $('#clock').countdown('2016/04/22 07:40:00').on('update.countdown', function(event) {
+	 //  	var format = '%H:%M:%S';
+	 //   	if(event.offset.days > 0) {
+	 //    	format = '%-d day%!d ' + format;
+	 //   	}
+	 //    if(event.offset.weeks > 0) {
+	 //    	format = '%-w week%!w ' + format;
+	 //    }
+	 //    $(this).html(event.strftime(format));
+	 //  })
+	 // .on('finish.countdown', function(event) {
+	 //   $(this).html('This offer has expired!')
+	 //     .parent().addClass('disabled');
+	 
+  //     });
+
+$('#clock').countdown('2016/04/22 07:40:00').on('update.countdown', function(event) {
+  var $this = $(this).html(event.strftime(''
+    // + '<span>%-w</span> sem%!w '
+    + '<span>%-d</span> día%!d '
+    + '<span>%H</span> hr '
+    + '<span>%M</span> min '
+    + '<span>%S</span> sec'));
+});
+
+
+
+</script>

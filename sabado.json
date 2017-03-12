@@ -1,0 +1,51 @@
+[
+
+    {
+        "hora": "07:40am 08:00am",
+        "ponente": "Registro de Participantes",
+        "organizacion": "",
+        "taller": "",
+        "sala": "",
+        "descripcion": ""
+    },
+    {
+        "hora": "08:05am 08:30am",
+        "ponente": "Josemiguel Canelones",
+        "organizacion": "CENDITEL",
+        "taller": "Video Conferencia. Hardware Libre para la Automatizaci贸n de  procesos agr铆colas (HAPA)",
+        "sala": "Sala 1",
+        "descripcion": "HAPA: Es un dispositivo electr髇ico capaz de automatizar y controlar los procesos agr胏olas. Adem醩 comprende ciertas caracter韘ticas fundamentales para el control hidrop贸nico de un invernadero"
+    },
+    {
+        "hora": "08:35am 09:00am",
+        "ponente": "Pedro Buitrago",
+        "organizacion": "CENDITEL",
+        "taller": "Video Conferencia. Certificaci贸n Electr贸nica con Tecnolog铆as Libres ",
+        "sala": "Sala 1",
+        "descripcion": "El proyecto Tibisay FirmaXML propone el desarrollo de una aplicaci贸n de escritorio que permita firmar electr贸nicamente documentos de distintos formatos utilizando certificados electr贸nicos protegidos por dispositivos criptogr谩ficos como tarjetas inteligentes o token de seguridad."
+    },
+    {
+        "hora": "09:05am 09:15am",
+        "ponente": "RECESO",
+        "organizacion": "",
+        "taller": "",
+        "sala": "",
+        "descripcion": ""
+    },
+    {
+        "hora": "09:20am 10:50am",
+        "ponente": "Erick Carvajal",
+        "organizacion": "Grupo de investigaci贸n SeSLi",
+        "taller": "GIT: Desarrollo 谩gil de /home a github en minutos",
+        "sala": "Sala 2",
+        "descripcion": "Git es un software de control de versiones dise帽ado por Linus Torvalds, pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando 茅stas tienen un gran n煤mero de archivos de c贸digo fuente."
+    },
+    {
+        "hora": "11:00am 12:25Pm",
+        "ponente": "Oswaldo Hern谩ndez",
+        "organizacion": "cumanadigital.net.ve",
+        "taller": "Chamilo. Plataforma E-learning ",
+        "sala": "Sala 2",
+        "descripcion": "Chamilo es una soluci贸n de software libre, licenciada bajo la GNU/GPLv3, de gesti贸n del E-learning o aprendizaje electr贸nico, desarrollada con el objetivo de mejorar el acceso a la educaci贸n y el conocimiento globalmente"
+    }
+]

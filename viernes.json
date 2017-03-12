@@ -1,0 +1,90 @@
+[
+  {
+    "hora":"07:40am 08:15am",
+    "ponente":"--",
+    "organizacion":"Flisol Cumaná",
+    "ponencia":"Registro de Participantes",
+    "sala":"Auditorio Cumaná Ciudad de Oro",
+    "descripcion":""
+  },
+  {
+    "hora":"08:20am 08:30am",
+    "ponente":"--",
+    "organizacion":"Flisol Cumaná",
+    "ponencia":"Palabras de Apertura del FLISOL",
+    "sala":"Auditorio Cumaná Ciudad de Oro",
+    "descripcion":""
+  },
+  {
+    "hora":"08:35am 09:05am",
+    "ponente":"Nehomar A. Barragan R.",
+    "organizacion":"CNTI",
+    "ponencia":"Proyecto Canaima GNU/Linux",
+    "sala":"Auditorio Cumaná Ciudad de Oro",
+    "descripcion":"Por confirmar"
+  },
+  {
+    "hora":"09:10am 09:40am",
+    "ponente":"Erick Carvajal",
+    "organizacion":"Grupo de investigación SeSLi",
+    "ponencia":"Root tablet canaima – Legalidad vs Realidad",
+    "sala":"Auditorio Cumaná Ciudad de Oro",
+    "descripcion":"La presentación se desarrolla entorno al plan de inclusión tecnológica impulsado por el Estado a nivel nacional desde el programa Canaima educativo haciendo incapie en aspectos fuertes y débiles desde el punto de vista del orador. Introduciendo al publico en el proceso de desarrollo de software bajo el esquema de trabajo colaborativo con el fin de dar respuesta y brindar soluciones a los usuarios en general (usuarios finales y usuarios avanzados) desde un producto de software de gran utilidad denominado TR10-TOOL"
+  },
+  {
+    "hora":"09:40am 09:55am",
+    "ponente":"--",
+    "organizacion":"RECESO",
+    "ponencia":"RECESO",
+    "sala":"",
+    "descripcion":""
+  },
+  {
+    "hora":"10:00am 10:30am",
+    "ponente":"José Andradez",
+    "organizacion":"Saecosoft C.A.",
+    "ponencia":"Creando aplicaciones desacopladas, introducción a RabbitMQ ",
+    "sala":"Auditorio Cumaná Ciudad de Oro",
+    "descripcion":"Se muestran casos de aplicaciones monolíticas (acopladas) con pseudo código para facilitar el entendimiento y se indica como se puede hacer de una manera mas eficiente usando RabbitMQ, seguidamente se da una breve introducción de como trabaja RabbitMQ finalizando con la muestra de un trabajo que esta desarrollándose en este momento que es parte de mi tesis."
+  },
+  {
+    "hora":"10:35am 11:05am",
+    "ponente":"Javier García",
+    "organizacion":"Grupo de Investigación SeSLi",
+    "ponencia":"Toma el Control de Kodi con Kore.",
+    "sala":"Auditorio Cumaná Ciudad de Oro",
+    "descripcion":"Se desvelara la utilización del servidor, centro de medios digitales y de entretenimiento Kodi en entornos domésticos revisando algunas de las mas relevantes configuraciones con énfasis en las tecnologías y protocolos a usar DLNA y UPnP respectivamente, aplicada a través de Kore."
+  },
+  {
+    "hora":"11:10am 11:40am",
+    "ponente":"David José Bustillo Rossell",
+    "organizacion":"Grupo de Investigación SeSLi",
+    "ponencia":"Diviértete desarrollando con Python y su librería de juegos Pygame.",
+    "sala":"Auditorio Cumaná Ciudad de Oro",
+    "descripcion":""
+  },
+  {
+    "hora":"11:45am 01:10pm",
+    "ponente":"--",
+    "organizacion":"ALMUERZO LIBRE",
+    "ponencia":"ALMUERZO LIBRE",
+    "sala":"",
+    "descripcion":""
+  },
+  {
+    "hora":"01:20pm 01:50pm",
+    "ponente":"Daniel Rausseo",
+    "organizacion":"Grupo de Investigación SeSLi",
+    "ponencia":"LibreCAD una alternativa libre de AutoCAD",
+    "sala":"Auditorio Cumaná Ciudad de Oro",
+    "descripcion":"Diseño CAD con LibreCAD"
+  },
+  {
+    "hora":"01:55pm 02:25pm",
+    "ponente":"Oswaldo Hernández",
+    "organizacion":"cumanadigital",
+    "ponencia":"Como Introducir la Programación y la Robótica en la Educación. Hardware Libre Proyecto Pinguino.cc",
+    "sala":"Auditorio Cumaná Ciudad de Oro",
+    "descripcion":"Herramientas y proyectos disponibles en el área de robótica Educativa, software y hardware libre. estrategias para enseñar programación por medio de la robótica y su aplicación en las instituciones educativas."
+  }
+]
