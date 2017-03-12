@@ -1,2 +1,2 @@
 # Flisol-2016
-from yeoman webapp-generator 
+You can see the project on flisolcumana.github.io/flisol-2016 
