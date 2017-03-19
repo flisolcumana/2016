@@ -200,7 +200,8 @@ th {
   }
   a,
   a:visited {
-    text-decoration: underline;
+    text-decoration:none;
+    color:white;
   }
   a[href]:after {
     content: " (" attr(href) ")";
@@ -241,6 +242,7 @@ th {
   .navbar {
     display: none;
   }
+
   .btn > .caret,
   .dropup > .btn > .caret {
     border-top-color: #000 !important;
@@ -1141,6 +1143,10 @@ img {
        -o-transition: all .2s ease-in-out;
           transition: all .2s ease-in-out;
 }
+.ocinantes{
+
+}
+
 .img-circle {
   border-radius: 50%;
 }
