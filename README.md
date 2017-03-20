@@ -2,5 +2,5 @@
 
 # Custom url
 
-2016.flisolcumana.org.ve
+http://2016.flisolcumana.org.ve
  
